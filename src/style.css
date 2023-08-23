@@ -40,4 +40,5 @@ footer {
 
 body {
   background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+  max-width: fit-content;
 }
