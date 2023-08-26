@@ -9,6 +9,7 @@ h1 {
   text-align: center;
   margin-top: 40px;
   margin-bottom: 20px;
+  color: #407088;
 }
 
 h2 {
@@ -16,12 +17,19 @@ h2 {
   font-weight: lighter;
   text-align: center;
   margin-top: 0px;
+  color: #132743;
 }
 
 h3 {
   text-align: center;
   font-weight: lighter;
   font-size: 25px;
+}
+
+.container-first-page {
+  background: #ffcbcb;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .bold {
