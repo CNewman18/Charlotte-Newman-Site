@@ -21,6 +21,7 @@ h2 {
 h3 {
   text-align: center;
   font-weight: lighter;
+  font-size: 25px;
 }
 
 .bold {
@@ -35,7 +36,7 @@ h3 {
   width: 150px;
   display: block;
   margin: 0 auto;
-  transform: skew(10deg, 2deg);
+  transform: rotate(5deg);
 }
 
 .github-link {
