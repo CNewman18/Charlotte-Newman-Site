@@ -20,6 +20,7 @@ h2 {
 
 h3 {
   text-align: center;
+  font-weight: lighter;
 }
 
 .bold {
@@ -38,6 +39,5 @@ h3 {
 }
 
 .github-link {
-  font-weight: lighter;
   text-decoration: none;
 }
