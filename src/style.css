@@ -48,7 +48,7 @@ h3 {
   filter: drop-shadow(4px 4px 4px #407088);
 }
 
-.github-link {
+.link {
   text-decoration: none;
 }
 
@@ -71,7 +71,7 @@ h3 {
   color: #ffcbcb;
 }
 
-.github-link:hover {
+.link:hover {
   color: black;
   transition: ease-in-out (0.5);
 }
@@ -86,4 +86,5 @@ h3 {
   text-align: right;
   margin-right: 60px;
   color: #407088;
+  margin-bottom: 60px;
 }
