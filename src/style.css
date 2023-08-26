@@ -98,6 +98,7 @@ h3 {
   font-size: 30px;
   width: 30px;
   margin: 10px;
+  color: #132743;
 }
 
 .icon:hover {
@@ -108,4 +109,8 @@ h3 {
 .socials {
   text-align: center;
   margin-top: 60px;
+}
+
+a {
+  text-decoration: none;
 }
