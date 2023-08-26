@@ -70,6 +70,6 @@ h3 {
 }
 
 .github-link:hover {
-  font-size: 30px;
+  color: black;
   transition: ease-in-out (0.5);
 }
