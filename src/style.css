@@ -4,5 +4,16 @@ body {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 80px;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.hello {
+  font-weight: 400;
+}
+
+.name {
+  font-style: italic;
 }
