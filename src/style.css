@@ -30,4 +30,5 @@ h2 {
   width: 150px;
   display: block;
   margin: 0 auto;
+  transform: skew(10deg, 2deg);
 }
