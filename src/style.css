@@ -68,3 +68,8 @@ h3 {
   margin-top: 0px;
   color: #ffcbcb;
 }
+
+.github-link:hover {
+  font-size: 30px;
+  transition: ease-in-out (0.5);
+}
