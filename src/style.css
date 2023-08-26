@@ -73,3 +73,7 @@ h3 {
   color: black;
   transition: ease-in-out (0.5);
 }
+
+.row {
+  margin-top: 30px;
+}
