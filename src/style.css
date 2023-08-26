@@ -90,5 +90,22 @@ h3 {
   margin-bottom: 60px;
 }
 
-.comment
+.comment {
+  margin-top: 80px;
+}
 
+.icon {
+  font-size: 30px;
+  width: 30px;
+  margin: 10px;
+}
+
+.icon:hover {
+  color: #407088;
+  transition: ease-in-out;
+}
+
+.socials {
+  text-align: center;
+  margin-top: 60px;
+}
