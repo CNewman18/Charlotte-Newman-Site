@@ -4,32 +4,30 @@ body {
 }
 
 h1 {
+  color: #407088;
   font-size: 80px;
   font-weight: lighter;
-  text-align: center;
-  margin-top: 40px;
   margin-bottom: 20px;
-  color: #407088;
-}
-
-.subheading-first-page {
-  font-size: 40px;
-  font-weight: lighter;
+  margin-top: 40px;
   text-align: center;
-  margin-top: 0px;
-  color: #132743;
 }
 
 h3 {
-  text-align: center;
-  font-weight: lighter;
   font-size: 25px;
+  font-weight: lighter;
+  text-align: center;
+}
+a {
+  color: #407088;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  transition: ease-in-out (0.5);
 }
 
-.container-pink-page {
-  background: #ffcbcb;
-  padding-top: 50px;
-  padding-bottom: 50px;
+p {
+  text-align: center;
 }
 
 .bold {
@@ -41,26 +39,25 @@ h3 {
 }
 
 .charlotte-photo {
-  width: 150px;
   display: block;
+  filter: drop-shadow(4px 4px 4px #407088);
   margin: 50px auto 30px auto;
   transform: rotate(5deg);
-  filter: drop-shadow(4px 4px 4px #407088);
+  width: 150px;
 }
 
-a {
-  color: #407088;
-  text-decoration: none;
-}
-
-p {
+.subheading-first-page {
+  color: #132743;
+  font-size: 40px;
+  font-weight: lighter;
+  margin-top: 0px;
   text-align: center;
 }
 
 .scribble {
-  width: 100px;
   display: block;
   margin: 0 auto;
+  width: 100px;
 }
 
 .container-blue-page {
@@ -69,16 +66,16 @@ p {
 }
 
 .heading-second-page {
+  color: #ffcbcb;
   font-size: 40px;
   font-weight: lighter;
-  text-align: left;
   padding-top: 20px;
-  color: #ffcbcb;
+  text-align: left;
 }
-
-a:hover {
-  color: black;
-  transition: ease-in-out (0.5);
+.container-pink-page {
+  background: #ffcbcb;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .row {
@@ -86,12 +83,12 @@ a:hover {
 }
 
 .heading-third-page {
+  color: #407088;
   font-size: 40px;
   font-weight: lighter;
-  text-align: right;
-  margin-right: 60px;
-  color: #407088;
   margin-bottom: 60px;
+  margin-right: 60px;
+  text-align: right;
 }
 
 .comment {
@@ -99,10 +96,10 @@ a:hover {
 }
 
 .icon {
-  font-size: 30px;
-  width: 30px;
-  margin: 10px;
   color: #132743;
+  font-size: 30px;
+  margin: 10px;
+  width: 30px;
 }
 
 .icon:hover {
@@ -111,8 +108,8 @@ a:hover {
 }
 
 .socials {
-  text-align: center;
   margin-top: 60px;
+  text-align: center;
 }
 
 .website-links {
