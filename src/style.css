@@ -48,9 +48,13 @@ h3 {
   filter: drop-shadow(4px 4px 4px #407088);
 }
 
-.link {
+a {
   color: #407088;
   text-decoration: none;
+}
+
+p {
+  text-align: center;
 }
 
 .scribble {
@@ -72,7 +76,7 @@ h3 {
   color: #ffcbcb;
 }
 
-.link:hover {
+a:hover {
   color: black;
   transition: ease-in-out (0.5);
 }
@@ -111,6 +115,7 @@ h3 {
   margin-top: 60px;
 }
 
-a {
-  text-decoration: none;
+.website-links {
+  display: flex;
+  justify-content: space-evenly;
 }
