@@ -25,7 +25,7 @@
   <body>
     <div class="container-pink-page">
       <h1>
-        <span class="bold">Hello</span>, I am
+        <span class="bold" id="h1">Hello</span>, I am
         <span class="italic"> Charlotte</span>
       </h1>
       <h2 class="subheading-first-page">
@@ -45,11 +45,17 @@
           alt="scribble underline"
           class="scribble"
         />
+        <div class="website-links">
+          <a href="#heading-second-page">Photography</a>
+          <a href="#heading-third-page">Web Development</a>
+        </div>
       </h3>
     </div>
     <div class="container-blue-page">
       <div class="container">
-        <h2 class="heading-second-page">Photography</h2>
+        <h2 class="heading-second-page" id="heading-second-page">
+          Photography
+        </h2>
         <div class="row">
           <img
             src="images/postbox-london-portrait.jpeg"
@@ -92,19 +98,33 @@
       </div>
     </div>
     <div class="container-pink-page">
-      <h2 class="heading-third-page">Web Development</h2>
+      <h2 class="heading-third-page" id="heading-third-page">
+        Web Development
+      </h2>
       <h3>
         Click
         <span class="bold">
           <a
-            href="https://candid-gumdrop-8d1ba9.netlify.app/"
+            href="https://playful-shortbread-5de420.netlify.app/"
             target="_blank"
             class="link"
             >here</a
           >
         </span>
-        to view my weather app <br />
-        <span class="italic"> (still under construction)</span>
+        to view my weather app 🌧️ <br />
+        <br />
+      </h3>
+      <h3>
+        Click
+        <span class="bold">
+          <a
+            href="https://charlies-world-clock.netlify.app/"
+            target="_blank"
+            class="link"
+            >here</a
+          >
+        </span>
+        to view my world clock app ⏱️ <br />
       </h3>
       <h3 class="comment">
         More projects are in the works- stay tuned on my socials to keep up to
@@ -124,6 +144,7 @@
           <i class="icon fa-brands fa-square-github"></i>
         </a>
       </p>
+      <a href="#h1" class="h1">Back to top</a>
     </div>
     <script src="src/script.js"></script>
   </body>
